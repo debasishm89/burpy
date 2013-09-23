@@ -7,7 +7,7 @@ Using this library you can easily manipulate (Add remove headers , parameter ,ch
 
 You can easily write your own module specific to any web application. One example is given below.
 
-Below mentioned burpy module adds a new header to any request, remove Referrer header from request, remove csrf token from request and fire the request.
+Below mentioned burpy module adds a new header to any request, remove Referrer header and csrf token from request and fire the request.
 If generic CSRF error is returned, it means token validation is present in server side. If server respond is a different manner it log this crafted request in html report.
 
 
@@ -30,3 +30,5 @@ def main(raw_stream,ssl):				# create a mail subroutine (mandatory)
 	else:
 		# As the generic csrf error is not present in body, treat this as suspicious and +ve result.
 		return title,final,result[0],result[1],result[2],result[3]
+
+
