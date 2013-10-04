@@ -6,6 +6,13 @@ def main(raw_stream,ssl):
 	It simply checks whether CSRF token validation is present in Server Side or not by removing token from request and replaying it.
 	Twitter application always shows a generic error message for CSRF error which is "Your account may not be allowed to perform this action."
 	If this error is not present in response after removing the token it returns +ve.
+	
+	These Twitter Bugs were found using this Burpy Plugin:
+
+	http://www.debasish.in/2013/09/hacking-twitter-for-fun.html
+	http://www.debasish.in/2013/09/twitter-xsrf-vulnerability-thanks-to.html
+	
+	
 	'''
 	title = [
 		 "Possible XSRF",		#Please don't add <script>/ html tags here and report XSS :P
