@@ -109,7 +109,6 @@ class RawWeb:
 		try:
 			con.request(method,path,body,headers)
 			res = con.getresponse()
-			print res
 		except Exception,e:
 			return 'Error','Error',{},'Error'
 			print '[+] Connectivity Issue '
