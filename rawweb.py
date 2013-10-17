@@ -5,7 +5,10 @@ import gzip
 
 class RawWeb:
 	def __init__(self,raw):
-		raw = raw.decode('utf8')
+		try:
+			raw = raw.decode('utf8')
+		except Exception,e:
+			raw = raw
 		global headers,method,body,path
 		headers = {}
 		sp = raw.split('\n\n',1)
@@ -106,7 +109,9 @@ class RawWeb:
 		try:
 			con.request(method,path,body,headers)
 			res = con.getresponse()
+			print res
 		except Exception,e:
+			return 'Error','Error',{},'Error'
 			print '[+] Connectivity Issue '
 		#make response dict
 		res_headers = {}
