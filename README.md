@@ -48,7 +48,7 @@ https://github.com/debasishm89/burpy/blob/master/modules/samplexsrf.py
 
 And this is how the final report looks.
 
-https://dl.dropboxusercontent.com/u/107519001/Screenshot%20at%202013-09-26%2020%3A01%3A46.png
+![alt tag](https://dl.dropboxusercontent.com/u/107519001/Screenshot%20at%202013-09-26%2020%3A01%3A46.png)
 
 I've used twitter Bootstrap library final report.
 
