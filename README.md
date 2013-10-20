@@ -5,7 +5,7 @@ This portable python tool,parses Burp Suite (http://portswigger.net) log and per
 series of tests and finally generate HTML report.
 
 
-debasish@debasish:~/burpy$ python burpy.py 
+		debasish@debasish:~/burpy$ python burpy.py 
 
                          ____                                             ___  __ 
                         |  _ \                                           / _ \/_ |
