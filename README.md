@@ -18,16 +18,16 @@ debasish@debasish:~/burpy$ python burpy.py
 
                   Burpy v0.1 Portable and Flexible Web Application Security Scanner
                         Author : Debasish Mandal (http://www.debasish.in)
-[+] Error!! You have missed a mandatory option
+                         [+] Error!! You have missed a mandatory option
 
-Usage: burpy.py [options]
+                         Usage: burpy.py [options]
 
-Options:
-  -h, --help         show this help message and exit
-  -t TARGET_DOMAIN   Target/Scan Scope domain - Its mandatory option
-  -l BURP_SUITE_LOG  Full path to burp suite log - Its mandatory option
-  -s SSL             Use of SSL on or off - Its mandatory option
-debasish@debasish:~/burpy$ 
+                         Options:
+                         -h, --help         show this help message and exit
+                         -t TARGET_DOMAIN   Target/Scan Scope domain - Its mandatory option
+                         -l BURP_SUITE_LOG  Full path to burp suite log - Its mandatory option
+                         -s SSL             Use of SSL on or off - Its mandatory option
+                         debasish@debasish:~/burpy$ 
 
 
 
@@ -52,10 +52,9 @@ And this is how the final report looks.
 
 I've used twitter Bootstrap library final report.
 
-
 Following Bugs were found using Burpy:
 
-http://www.debasish.in/2013/09/hacking-twitter-for-fun.html
-http://www.debasish.in/2013/09/twitter-xsrf-vulnerability-thanks-to.html
+                         http://www.debasish.in/2013/09/hacking-twitter-for-fun.html
+                         http://www.debasish.in/2013/09/twitter-xsrf-vulnerability-thanks-to.html
 
 Mail me any feature request , Bug @ debasishm89 [@] gmail.com
