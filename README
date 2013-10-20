@@ -1,7 +1,8 @@
 Burpy v0.1
 ===========
 
-This portable python tool,parses Burp Suite (http://portswigger.net) log and performs series of tests and finally generate HTML report.
+This portable python tool,parses Burp Suite (http://portswigger.net) log and performs 
+series of tests and finally generate HTML report.
 
 
 debasish@debasish:~/burpy$ python burpy.py 
@@ -31,14 +32,16 @@ debasish@debasish:~/burpy$
 
 
 I have included one raw http request manipulation library (rawweb.py) here.
-Using this library you can easily manipulate (Add remove headers , parameter ,change methods) raw http requests on the fly.
+Using this library you can easily manipulate (Add remove headers , parameter ,change methods) raw 
+http requests on the fly.
 
 You can easily write your own module specific to any web application. 
 
 One example is given below.
 
-Below mentioned burpy module adds a new header to any request, remove Referrer header and csrf token from request and fire the request.
-If generic CSRF error is returned, it means token validation is present in server side. If server respond is a different manner it log this crafted request in html report.
+Below mentioned burpy module adds a new header to any request, remove Referrer header and csrf token from 
+request and fire the request.If generic CSRF error is returned, it means token validation is present in 
+server side. If server respond is a different manner it log this crafted request in html report.
 
 https://github.com/debasishm89/burpy/blob/master/modules/samplexsrf.py
 
