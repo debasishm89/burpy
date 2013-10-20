@@ -18,16 +18,16 @@ debasish@debasish:~/burpy$ python burpy.py
 
                   Burpy v0.1 Portable and Flexible Web Application Security Scanner
                         Author : Debasish Mandal (http://www.debasish.in)
-                         [+] Error!! You have missed a mandatory option
+		[+] Error!! You have missed a mandatory option
 
-                         Usage: burpy.py [options]
-
-                         Options:
-                         -h, --help         show this help message and exit
-                         -t TARGET_DOMAIN   Target/Scan Scope domain - Its mandatory option
-                         -l BURP_SUITE_LOG  Full path to burp suite log - Its mandatory option
-                         -s SSL             Use of SSL on or off - Its mandatory option
-                         debasish@debasish:~/burpy$ 
+		Usage: burpy.py [options]
+		
+		Options:
+    		-h, --help         show this help message and exit
+    		-t TARGET_DOMAIN   Target/Scan Scope domain - Its mandatory option
+    		-l BURP_SUITE_LOG  Full path to burp suite log - Its mandatory option
+    		-s SSL             Use of SSL on or off - Its mandatory option
+		debasish@debasish:~/burpy$ 
 
 
 
