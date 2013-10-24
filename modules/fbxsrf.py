@@ -9,7 +9,7 @@ def main(raw_stream,ssl):
 	'''
 	title = [
 		 "Possible XSRF",		#Please don't add <script>/ html tags here and report XSS :P
-		"CSRF Token Removed from Request and Change Request Method"
+		"CSRF Token (fb_dtsg) Removed from Raw Request"
 		]
 	csrf_error = "Please try closing and re-opening your browser"	# 
 	raw = RawWeb(raw_stream)
