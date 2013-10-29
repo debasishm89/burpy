@@ -50,11 +50,12 @@ And this is how the final report looks.
 
 		http://onlyhtmlfiles.appspot.com/static/Sample_Burpy_Report.html
 
-I've used twitter Bootstrap library final report.
+I've used twitter Bootstrap library to design this final report.
 
 Following Bugs were found using Burpy:
 
                          http://www.debasish.in/2013/09/hacking-twitter-for-fun.html
                          http://www.debasish.in/2013/09/twitter-xsrf-vulnerability-thanks-to.html
+                         http://www.debasish.in/2013/10/fuzzing-facebook-for-using-burpy.html
 
 Mail me any feature request , Bug @ debasishm89 [@] gmail.com
