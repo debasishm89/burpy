@@ -11,7 +11,7 @@ def main(raw_stream,ssl):				# create a mail subroutine (mandatory)
 	#result[1] => OK	=> String
 	#result[2] => Response headers => dictionary
 	#result[3] => body	=> string
-	if 'csrf error' in body:
+	if 'csrf error' in result[3]:
 		# Generic CSRF error is in response body. Hence return "FALSE"
 		return "FALSE"
 	else:
