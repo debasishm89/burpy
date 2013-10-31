@@ -5,7 +5,7 @@ def main(raw_stream,ssl):				# create a mail subroutine (mandatory)
 	raw = RawWeb(raw_stream)			# Initiate rawweb library
 	raw.addheaders({'Header1':'Value1'})  # Add new headers to that request
 	raw.removeheaders(['Referrer'])			  # Remove Referrer header if exist in raw request
-	final = raw.removeparam("auth_token")	# final will hold the final request to be fired.(For reporting)
+	final = raw.removeparameter("auth_token")	# final will hold the final request to be fired.(For reporting)
 	result = raw.fire(ssl)				
 	#result[0] => 200	=> Integer
 	#result[1] => OK	=> String
