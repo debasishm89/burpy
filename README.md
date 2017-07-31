@@ -59,3 +59,7 @@ Following Bugs were found using Burpy:
                          http://www.debasish.in/2013/10/fuzzing-facebook-for-using-burpy.html
 
 Mail me any feature request , Bug @ debasishm89 [@] gmail.com
+
+
+**Update**
+I've been receiving many issue / error with this tool. I'm unable to maintain this project due to other priorities. Sorry about that :(
