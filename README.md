@@ -62,4 +62,4 @@ Mail me any feature request , Bug @ debasishm89 [@] gmail.com
 
 
 **Update**
-I've been receiving many issue / error with this tool. I'm unable to maintain this project due to other priorities. Sorry about that :(
+I've been receiving many issues / errors with this prototype of burpy. Right now I'm unable to maintain this project due to other priorities and limited bandwidth. Sorry about that :(
